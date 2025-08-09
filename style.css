@@ -1,0 +1,427 @@
+
+.navbar {
+  margin: -8px;
+  background-color:black; /* 🔸 Full navbar ka background */
+  padding: 30px;
+  text-align: center; /* Center align list items */
+  /* margin: 0; */
+  bottom: 0;
+
+}
+
+
+.navbar li {
+cursor: pointer;    
+display: inline;
+  margin: 0 15px;
+  list-style: none;
+
+  
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+img{
+  height: 510px;
+  width: 1100px;
+  margin-left: 18px;
+  margin-right: 70px;
+  
+}
+.image-container {
+      position: relative;
+      width: 400px; /* ya jitni tumhari image ki width ho */
+    }
+    .text {
+      position: absolute;
+      top: 20px; /* text image ke upar kitna niche ho */
+      left: 60px;
+      
+      color: white;
+      font-size: 40px;
+      font-weight: bolder;
+
+      padding: 8px 12px;
+      border-radius: 5px;
+      margin-top: 300px;
+    }
+#btn{
+    position: absolute;
+      top: 20px; /* text image ke upar kitna niche ho */
+      left: 60px;
+      
+      background-color: yellow;
+      font-size: 20px;
+      font-weight: bolder;
+
+      padding:  12px;
+      border-radius: 7px;
+      margin-top: 400px;
+      border: none;
+      right: 5px 4px;
+      margin-right: 5px;
+      cursor: pointer;
+}
+#btn:hover{
+  /* background-color: aliceblue; */
+   background-color: #ffffcc; 
+
+}
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.box{
+  width: 400px;
+  height: 380px;
+   /* width: 400px;
+  height: 380px; */
+  padding: 10px;
+  border: 2px solid gainsboro;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+
+} 
+.inboximage{
+  height:50px;
+   width: 50px;
+    border-radius: 50px;
+     margin-right :998px; 
+   position: absolute; 
+  top: 980px; 
+  left: 10px; 
+
+}
+.box2{
+   width: 400px;
+  height: 380px;
+  padding: 10px;
+  border: 2px solid gainsboro;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+
+
+} 
+  
+.imagefix{
+  margin: -10px;
+  margin-top: 0px;
+  
+  height:401px;
+  width:420px;
+
+  margin-right:1000vh;
+  margin-top: 0px;
+  position: relative; 
+  bottom: 10px;
+  padding: 0px;
+  border-radius: 8px;
+  
+  
+  
+}
+.imagefix2{
+  margin: -10px;
+  margin-top: 0px;
+  
+  height:401px;
+  width:420px;
+
+  margin-right:1000vh;
+  margin-top: 0px;
+  position: relative; 
+  bottom: 10px;
+  padding: 0px;
+  border-radius: 8px;
+  
+  
+  
+}
+.imagefix3{
+  margin: -10px;
+  margin-top: 0px;
+  
+  height:401px;
+  width:420px;
+
+  margin-right:1000vh;
+  margin-top: 0px;
+  position: relative; 
+  bottom: 10px;
+  padding: 0px;
+  border-radius: 8px;
+  
+  
+  
+}
+
+
+/* .border1{
+  
+   height: 150px;
+  width: 150px;
+  border-radius: 100px;
+} 
+
+.border2{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  margin-right: auto;
+  margin-right: 40px;
+  gap:-10px;
+
+} 
+
+.border3{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  gap: 2px;
+  margin-right:40px ;
+}
+
+
+.border4{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  margin-right: 20px;
+  margin-right: 40px;
+  
+  
+  
+  
+}
+.border5{
+ height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  margin-left: 30px;
+  
+} */
+
+      /* .inboximager{
+  height:50px;
+   width: 50px;
+    border-radius: 50px;
+     margin-right :998px; 
+     margin-left: 400px;
+   position: absolute; 
+  top: 980px; 
+  left: 10px;
+   }  */
+   .border1,
+.border2,
+.border3,
+.border4,
+.border5,
+.border6 {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  display: inline-block;
+  margin-right: 20px; /* sab image ke beech same space */
+  
+}
+
+ .border5 {
+  margin-right: 0; /* last image ke baad extra gap avoid */
+ }
+ border6 {
+  margin-right:0 /* last image ke baad extra gap avoid */
+ }
+ .container {
+    display: flex; /*line by line lana  */
+    gap: 22px; /* box ke beech gap */
+  }
+
+  .t1box {
+    height: 250px;
+    width: 250px;
+    border: 2px solid gainsboro;
+    margin-left: 5px;
+    border-radius: 3px;
+  }
+  .inbox1set{
+
+    margin: -1px;
+    height: 215px;
+    width: 252px;
+    
+
+  }
+  .inbox2set{
+
+    margin: -1px;
+    height: 215px;
+    width: 252px;
+    
+
+  }
+  .inbox3set{
+
+    margin: -1px;
+    height: 215px;
+    width: 252px;
+    
+
+  }
+  .inbox4set{
+
+    margin: -1px;
+    height: 215px;
+    width: 252px;
+    
+
+  }
+/* .t1box {
+  height: 290px;
+  width: 290px;
+  border: 2px solid gainsboro;
+}
+.t2box {
+  height: 290px;
+  width: 290px;
+  border: 2px solid gainsboro;
+} */
+.container {
+    display: flex; /*line by line lana  */
+    gap: 22px; /* box ke beech gap */
+  }
+
+  .a1 {
+    margin-top: -0px;
+    height: 400px;
+    width: 400px;
+    border: 0px solid gainsboro;
+    margin-left: 5px;
+    border-radius: 8px;
+    
+  }
+  .abc1{
+    
+    height: 400px;
+    width: 362px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 0;
+    left:-7px;
+    
+  }
+   .abc2{
+    height: 400px;
+    width: 362px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 0;
+     right: 320px;
+    
+  }
+   .abc3{
+    
+    height: 400px;
+    width: 362px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 0;
+       right: -62px;
+    
+  }
+  /* #search{
+    justify-content: center;
+    height: 40px;
+    width: 800px;
+    border: 3px solid gainsboro;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    justify-content: center; */
+  
+  .container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  font-size: 17px;
+
+  height: 40px;
+  width: 800px;
+  border: 3px solid gainsboro;
+  border-radius:20px ; 
+  /* ya jitna chahiye */
+  background-color: white;
+}
+  
+ /* .searchbox {
+  font-size: 17px;
+
+  height: 35px;
+  width: 300px;
+  border: 0px solid ;
+  border-radius:1px;
+  /* ya jitna chahiye */
+  background-color
+  */
+
+
+/* 
+ .center-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .search-input {
+      text-align: center;
+      padding: 10px;
+      font-size: 16px;
+      justify-content: center;
+    }  */
+      .search-box {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+} 
+.mid{
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  height: 30px;
+  width: 250px;
+  background-color:#fbc02d;
+  margin:auto;
+  cursor: pointer;
+}
+ #centerbox{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+.mid:hover{
+  background-color:#fff9c4;
+}
+.footer{
+  
+  height: 150px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  
+}
